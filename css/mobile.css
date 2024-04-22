@@ -1,0 +1,60 @@
+/* Utility Classes */
+.flex {
+	flex-direction: column;
+}
+
+.flex-box-one {
+	width: 100%;
+}
+
+.p-1 {
+	padding: 80px 0;
+}
+
+.p-2 {
+	padding: 50px 0;
+}
+
+.w-70 {
+	width: 100%;
+}
+
+/* Header */
+.mainheader {
+	height: 100%;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.mainheader .flex-content {
+	padding-right: 0;
+	padding-bottom: 50px;
+}
+
+/* Features */
+#features {
+	text-align: center;
+}
+
+#features .flex-content-left {
+	padding-right: 0;
+}
+
+#features .flex-content {
+	padding-left: 0;
+}
+
+#features .flex-content-left,
+#features .flex-content {
+	padding-top: 0;
+}
+
+/* Subtitle */
+#subtitle {
+	text-align: center;
+}
+
+/* Retos */
+.list-retos {
+	padding-left: 35px;
+}
