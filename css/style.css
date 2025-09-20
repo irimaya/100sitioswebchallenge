@@ -87,7 +87,7 @@ hr {
 }
 
 .text-gray {
-	color: #737373;
+	color: #737373 !important;
 }
 
 .text-red {
@@ -104,28 +104,6 @@ hr {
 
 .bk-gray {
 	background: #f9f9f9;
-}
-
-.btn {
-	display: inline-block;
-	font-size: 15px;
-	padding: 12px 23px;
-	cursor: pointer;
-	font-weight: bold;
-	letter-spacing: 1px;
-	border-radius: 20px;
-}
-
-.btn-light {
-	background: #da414e;
-	border: 1px solid #da414e;
-	color: #fff;
-}
-
-.btn-light:hover {
-	background: #e16671;
-	border: 1px solid #e16671;
-	color: #fff;
 }
 
 .current {
@@ -179,6 +157,38 @@ hr {
 }
 .circle-six {
 	background: #f1c9c7;
+}
+
+/* Buttons */
+.btn {
+	display: inline-block;
+	font-size: 15px;
+	padding: 12px 23px;
+	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-radius: 20px;
+}
+
+.btn-light {
+	background: #da414e;
+	border: 1px solid #da414e;
+	color: #fff;
+}
+
+.btn-light:hover {
+	background: #e16671;
+	border: 1px solid #e16671;
+	color: #fff;
+}
+
+.btn-reto {
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	padding: 50px 0;
+	font-size: 3rem;
+	font-weight: 300;
 }
 
 /* Navbar */
@@ -266,6 +276,10 @@ hr {
 /* Retos */
 #retos .flex {
 	gap: 20px;
+}
+
+.retos-year .flex-box {
+	flex: 1;
 }
 
 #retos .flex-box {
